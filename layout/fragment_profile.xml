@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.ProfileFragment">
+
+    <ImageView
+        android:id="@+id/profileLap"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/profile_mac"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"/>
+
+
+    <TextView
+        android:id="@+id/txtProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profileLap"
+        android:text="This is a Project built during Internshala Android App Development Training"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/txtProfileName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtProfile"
+        android:text="Developed by Punnya Bhatnagar"
+        android:textStyle="italic"
+        android:layout_marginTop="40dp"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:padding="10dp"/>
+
+</RelativeLayout>
